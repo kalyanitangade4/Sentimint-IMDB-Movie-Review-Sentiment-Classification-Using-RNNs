@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 Grab it directly from the GitHub Release:
 
-[⬇️ Download IMDB Dataset (CSV)](https://github.com/kalyanitangade4/sentiment/releases/download/v1.0/IMDB_Dataset.csv)
+[⬇️ Download IMDB Dataset (CSV)](https://github.com/kalyanitangade/sentiment/releases/download/v1.0/IMDB_Dataset.csv)
 
 ---
 
