@@ -1,4 +1,4 @@
-# Sentimint — IMDB Movie Review Sentiment Classification Using RNNs
+# Sentiment — IMDB Movie Review Sentiment Classification Using RNNs
 
 An end-to-end deep learning project that classifies IMDB movie reviews as **positive** or **negative** using a Recurrent Neural Network built in PyTorch. The pipeline combines text preprocessing, TF-IDF feature extraction, and a custom RNN architecture to automatically detect sentiment from raw, unstructured review text.
 
@@ -6,7 +6,7 @@ An end-to-end deep learning project that classifies IMDB movie reviews as **posi
 
 ## 🔍 Project Overview
 
-Sentimint analyzes **~50,000 IMDB movie reviews** and classifies each one as **positive** or **negative** based on the language used in the review. The goal is to move from manual review reading to automated, scalable sentiment detection that can be applied to new, unseen reviews.
+Sentiment analyzes **~50,000 IMDB movie reviews** and classifies each one as **positive** or **negative** based on the language used in the review. The goal is to move from manual review reading to automated, scalable sentiment detection that can be applied to new, unseen reviews.
 
 The notebook walks through the full NLP + deep learning workflow:
 
@@ -57,7 +57,7 @@ Platforms with large volumes of user-generated text (reviews, comments, feedback
 ```bash
 # Clone the repository
 git clone https://github.com/<your-username>/sentimint.git
-cd sentimint
+cd sentiment
 
 # (Optional) create a virtual environment
 python -m venv venv
@@ -66,7 +66,16 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
+## Download the dataset
 
+Grab it directly from the GitHub Release:
+
+[⬇️ Download IMDB Dataset (CSV)](https://github.com/kalyanitangade4/sentiment/releases/download/v1.0/IMDB_Dataset.csv)
+
+Or via command line:
+```bash
+wget https://github.com/kalyanitangade4/sentiment/releases/download/v1.0/IMDB_Dataset.csv -O data/IMDB_Dataset.csv
+```
 ---
 
 ## 🧠 Methodology
