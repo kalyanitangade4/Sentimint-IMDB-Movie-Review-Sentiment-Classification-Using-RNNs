@@ -154,7 +154,7 @@ Input (TF-IDF vector, 5000 dims)
 jupyter notebook sentiment_rnn.ipynb
 ```
 
-Run all cells sequentially (**Kernel → Restart & Run All**). Ensure `IMDB Dataset.csv` sits in the `data/` directory, or update the file path in the `pd.read_csv(...)` call at the top of the notebook.
+Run all cells sequentially (**Kernel → Restart & Run All**). 
 
 ---
 
