@@ -72,10 +72,6 @@ Grab it directly from the GitHub Release:
 
 [⬇️ Download IMDB Dataset (CSV)](https://github.com/kalyanitangade4/sentiment/releases/download/v1.0/IMDB_Dataset.csv)
 
-Or via command line:
-```bash
-wget https://github.com/kalyanitangade4/sentiment/releases/download/v1.0/IMDB_Dataset.csv -O data/IMDB_Dataset.csv
-```
 ---
 
 ## 🧠 Methodology
