@@ -56,8 +56,8 @@ Platforms with large volumes of user-generated text (reviews, comments, feedback
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/sentimint.git
-cd sentiment
+git clone https://github.com/kalyanitangade4/Sentimint-IMDB-Movie-Review-Sentiment-Classification-Using-RNNs.git
+cd Sentimint-IMDB-Movie-Review-Sentiment-Classification-Using-RNNs
 
 # (Optional) create a virtual environment
 python -m venv venv
@@ -70,7 +70,9 @@ pip install -r requirements.txt
 
 Grab it directly from the GitHub Release:
 
-[⬇️ Download IMDB Dataset (CSV)](https://github.com/kalyanitangade/sentiment/releases/download/v1.0/IMDB_Dataset.csv)
+[⬇️ Download IMDB Dataset](https://github.com/kalyanitangade4/Sentimint-IMDB-Movie-Review-Sentiment-Classification-Using-RNNs/releases/download/v1.0/IMDB.Dataset.xls)
+
+The file is plain CSV text. Save it as `IMDB Dataset.csv` next to the notebook, which reads it under that name.
 
 ---
 
